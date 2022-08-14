@@ -8,7 +8,7 @@ WriteLine("ВВедите второе число ");
 int numberB = Convert.ToInt32(ReadLine());
 if (numberA > numberB)
 {
-    WriteLine("Первое число больше второго");
+    WriteLine($"{numberA} больше {numberB}");
 }
 else {
     WriteLine("Второе число больше первого");
